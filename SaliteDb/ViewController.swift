@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import SQLite3
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let db=DatabaseHelper.init()
+        
+        let user:Users=Users.init(firstName: "abc", LastName: "xyz", email: "abc@xy.com", password: "1234")
+        db.registerUser(user: user)
+        db.retrieveUserData()
+
     }
-
-
 }
 

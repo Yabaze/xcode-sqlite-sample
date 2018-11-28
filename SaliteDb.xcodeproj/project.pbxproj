@@ -13,6 +13,9 @@
 		E928748B21ADA7DC006082F2 /* SaliteDb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E928748921ADA7DC006082F2 /* SaliteDb.xcdatamodeld */; };
 		E928748D21ADA7DE006082F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E928748C21ADA7DE006082F2 /* Assets.xcassets */; };
 		E928749021ADA7DE006082F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E928748E21ADA7DE006082F2 /* LaunchScreen.storyboard */; };
+		E928749B21ADA878006082F2 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928749A21ADA878006082F2 /* DatabaseHelper.swift */; };
+		E928749D21ADA89B006082F2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928749C21ADA89B006082F2 /* Users.swift */; };
+		E96B2FCC21AE9A2000798ABB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E96B2FCB21AE9A2000798ABB /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,10 @@
 		E928748C21ADA7DE006082F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E928748F21ADA7DE006082F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E928749121ADA7DE006082F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E928749821ADA825006082F2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E928749A21ADA878006082F2 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		E928749C21ADA89B006082F2 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		E96B2FCB21AE9A2000798ABB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96B2FCC21AE9A2000798ABB /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +50,7 @@
 			children = (
 				E928748121ADA7DC006082F2 /* SaliteDb */,
 				E928748021ADA7DC006082F2 /* Products */,
+				E928749721ADA825006082F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,19 @@
 				E928748E21ADA7DE006082F2 /* LaunchScreen.storyboard */,
 				E928749121ADA7DE006082F2 /* Info.plist */,
 				E928748921ADA7DC006082F2 /* SaliteDb.xcdatamodeld */,
+				E928749A21ADA878006082F2 /* DatabaseHelper.swift */,
+				E928749C21ADA89B006082F2 /* Users.swift */,
 			);
 			path = SaliteDb;
+			sourceTree = "<group>";
+		};
+		E928749721ADA825006082F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E96B2FCB21AE9A2000798ABB /* libsqlite3.0.tbd */,
+				E928749821ADA825006082F2 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E928749B21ADA878006082F2 /* DatabaseHelper.swift in Sources */,
 				E928748B21ADA7DC006082F2 /* SaliteDb.xcdatamodeld in Sources */,
+				E928749D21ADA89B006082F2 /* Users.swift in Sources */,
 				E928748521ADA7DC006082F2 /* ViewController.swift in Sources */,
 				E928748321ADA7DC006082F2 /* AppDelegate.swift in Sources */,
 			);
