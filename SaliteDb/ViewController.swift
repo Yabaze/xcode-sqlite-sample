@@ -16,10 +16,10 @@ class ViewController: UIViewController {
         
         let db=DatabaseHelper.init()
         
-        let user:Users=Users.init(firstName: "abc", LastName: "xyz", email: "abc@xy.com", password: "1234")
-        db.registerUser(user: user)
+        let users:Users = Users.init(firstName: "Yabaze", LastName: "Mirakle", email: "cool.mirakle@gmail.com", password: "1234")
+        
+        db.registerUser(user: users)
         db.retrieveUserData()
-
     }
 }
 

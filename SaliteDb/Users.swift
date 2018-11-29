@@ -8,17 +8,18 @@
 
 import Foundation
 
-class Users: NSObject {
-    var firstName:String
-    var LastName:String
-    var email:String
-    var password:String
+class Users {
+    var firstName:NSString!
+    var LastName:NSString!
+    var email:NSString!
+    var password:NSString!
+    
 
-    init(firstName:String,LastName:String,email:String,password:String) {
-            self.firstName=firstName
-            self.LastName=LastName
-            self.email=email
-            self.password=password
+  init(firstName:String,LastName:String,email:String,password:String) {
+            self.firstName=firstName as NSString
+            self.LastName=LastName as NSString
+            self.email=email as NSString
+            self.password=password as NSString
         }
     
 }

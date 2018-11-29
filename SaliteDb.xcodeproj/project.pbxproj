@@ -15,7 +15,7 @@
 		E928749021ADA7DE006082F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E928748E21ADA7DE006082F2 /* LaunchScreen.storyboard */; };
 		E928749B21ADA878006082F2 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928749A21ADA878006082F2 /* DatabaseHelper.swift */; };
 		E928749D21ADA89B006082F2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928749C21ADA89B006082F2 /* Users.swift */; };
-		E96B2FCC21AE9A2000798ABB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E96B2FCB21AE9A2000798ABB /* libsqlite3.0.tbd */; };
+		E9BAB31821B04AA2003BDAA7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BAB31721B04AA2003BDAA7 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +30,7 @@
 		E928749A21ADA878006082F2 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		E928749C21ADA89B006082F2 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		E96B2FCB21AE9A2000798ABB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E9BAB31721B04AA2003BDAA7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E96B2FCC21AE9A2000798ABB /* libsqlite3.0.tbd in Frameworks */,
+				E9BAB31821B04AA2003BDAA7 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +81,7 @@
 		E928749721ADA825006082F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E9BAB31721B04AA2003BDAA7 /* libsqlite3.tbd */,
 				E96B2FCB21AE9A2000798ABB /* libsqlite3.0.tbd */,
 			);
 			name = Frameworks;
